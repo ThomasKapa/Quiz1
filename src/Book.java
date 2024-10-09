@@ -41,14 +41,7 @@ public class Book {
     }
 
 
-    public boolean isRepeatingSummary() {
-        return Utilities.getFirstRepeatedCharacter(summary) != 0;
-    }
 
-    public void showPagesToRead() {
-        int middlePage = numberOfPages / 2;
-        Utilities.goDownToOne(middlePage);
-    }
 }
 
 
