@@ -40,9 +40,14 @@ public class Book {
         return false;
     }
 
-
-
+    public void showPagesToRead() {
+        int middlePage = numberOfPages / 2;
+        Utilities.goDownToOne(middlePage);
+        System.out.println(middlePage);
+    }
 }
+
+
 
 
 
